@@ -13,11 +13,12 @@ To look at similar crowdfunding efforts and explore options for another **Fever*
 
 ## Analysis and Challenges
 
-Taking advantage of a data file from Kickstarter, we were able to sort and filter the projects by goals, pledges, locations, categories, time-frames, and levels of success, each with some detail. Kickstarter’s data covered over 4,000 projects and eight years of time (2009-2017), and so we sorted by the theater category for launch date analysis and, more specific, plays, for goals analysis.
+Taking advantage of a data file from [Kickstarter](https://www.kickstarter.com/), we were able to sort and filter the projects by goals, pledges, locations, categories, time-frames, and levels of success, each with some detail. Kickstarter’s data covered over 4,000 projects and eight years of time (2009-2017), and so we sorted by the theater category for launch date analysis and, more specific, plays, for goals analysis.
 
 ### Analysis of Outcomes Based on Launch Date
 
-Checking start- and stop-dates, the successful projects for plays averaged a length of four weeks. With this in mind, we aimed to determine the best month to start. Using a pivot table, we sorted projects by level of success and month of launch date. Triple-digit ‘successful’ results for May and June stuck out immediately, but with a pivot chart we could see that Spring and Summer months could also mean failure. It is possible to determine exact launch dates but this should only be necessary if **Fever** needs a certain date for promotion.
+Checking start- and stop-dates, the successful projects for plays averaged a length of four weeks. With this in mind, we aimed to determine the best month to start. Using a pivot table, we sorted projects by level of success and month of launch date. Triple-digit ‘successful’ results for May and June stuck out immediately, but with a pivot chart we could see that Spring and Summer months could also mean failure. It is possible to determine exact launch dates but this should only be necessary if **Fever** needs a certain date for promotion. 
+![This is an image](https://github.com/JaimeStarling/Kickstarter-Analysis/blob/3b12fe9438cccb58da71308dc745e07ce93bf517/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 
@@ -43,6 +44,8 @@ What can you conclude about the Outcomes based on Goals?
 What are some limitations of this dataset
  
 - Kickstarter is known for repeated donors and especially ‘rewards’ given for donations, such as exclusive products or access, that brings those donors back to the site. Without revealing too much information on the donor, Kickstarter could have provided the number of first-time donors in the mix of each project. While the value of the reward would be difficult to assess, Kickstarter could provide how many people pledged at certain amounts. Such data helps design a more appealing pitch for **Fever** as a Kickstarter campaign. Especially with live theater, it helps to know exactly where a project is happening, and if the rewards are limited to being in or near that location.
+
+![This is an image](https://github.com/JaimeStarling/Kickstarter-Analysis/blob/8d405cbcceb19572f682a110c80bcf0b92f65065/Kickstarter%20Pledge%20Award%20Example.png)
 
 What are some other possible tables and/or graphs that we could create?
 
